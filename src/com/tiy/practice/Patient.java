@@ -5,14 +5,14 @@ package com.tiy.practice;
  */
 public class Patient extends Person {
 
-    private boolean isSick = true;
+    private int isSick = -1;
     private String sickness;
 
-    public boolean isSick() {
+    public int isSick() {
         return isSick;
     }
 
-    public void setSick(boolean sick) {
+    public void setSick(int sick) {
         isSick = sick;
     }
 

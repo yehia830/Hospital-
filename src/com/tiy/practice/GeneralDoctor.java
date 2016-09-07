@@ -14,7 +14,7 @@ public class GeneralDoctor extends HospitalDoctor implements Surgeon {
     }
 
     public boolean operate(Patient patient) {
-        patient.setSick(false);
+        patient.setSick(0);
         return true;
     }
 }
